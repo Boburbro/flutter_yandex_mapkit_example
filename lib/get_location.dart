@@ -10,6 +10,7 @@ Future<String> getAddress(double latitude, double longitude) async {
 
   if (response.statusCode == 200) {
     final data = json.decode(response.body);
+    
     final address =
         data['response']['GeoObjectCollection']['featureMember'][0]['GeoObject']['metaDataProperty']['GeocoderMetaData']['text'];
     return address;

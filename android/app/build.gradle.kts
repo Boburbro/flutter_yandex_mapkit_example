@@ -44,5 +44,5 @@ flutter {
 }
 
 dependencies {
-    implementation("com.yandex.android:maps.mobile:4.6.1-full")
+    implementation("com.yandex.android:maps.mobile:4.6.1-lite")
 }

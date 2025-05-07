@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_yandex_mapkit_example/get_location.dart';
 import 'package:geolocator/geolocator.dart';
-import 'package:yandex_mapkit/yandex_mapkit.dart';
+import 'package:yandex_mapkit_lite/yandex_mapkit_lite.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
