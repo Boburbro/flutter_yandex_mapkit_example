@@ -1,0 +1,59 @@
+Launching lib/main.dart on Redmi 8 in debug mode...
+Running Gradle task 'assembleDebug'...                          
+Running Gradle task 'assembleDebug'...                              4.9s
+✓ Built build/app/outputs/flutter-apk/app-debug.apk
+Installing build/app/outputs/flutter-apk/app-debug.apk...           9.6s
+I/flutter (11651): [IMPORTANT:flutter/shell/platform/android/android_context_vk_impeller.cc(60)] Using the Impeller rendering backend (Vulkan).
+Syncing files to device Redmi 8...                                  39ms
+
+Flutter run key commands.
+r Hot reload. 🔥🔥🔥
+R Hot restart.
+h List all available interactive commands.
+d Detach (terminate "flutter run" but leave application running).
+c Clear the screen
+q Quit (terminate the application on the device).
+
+A Dart VM Service on Redmi 8 is available at: http://127.0.0.1:37731/iE-gVVu1GjU=/
+W/Looper  (11651): Slow Looper main: Activity com.example.flutter_yandex_mapkit_example/.MainActivity is 7401ms late (wall=1ms running=0ms ClientTransaction{ callbacks=[android.app.servertransaction.TopResumedActivityChangeItem] }) because of 2 msg, msg 1 took 866ms (seq=2 late=3ms h=android.app.ActivityThread$H w=110), msg 2 took 3588ms (seq=3 late=866ms h=android.app.ActivityThread$H w=159)
+The Flutter DevTools debugger and profiler on Redmi 8 is available at: http://127.0.0.1:9101?uri=http://127.0.0.1:37731/iE-gVVu1GjU=/
+I/Choreographer(11651): Skipped 396 frames!  The application may be doing too much work on its main thread.
+I/AdrenoGLES(11651): QUALCOMM build                   : 9d44e36, Ie3bb699d95
+I/AdrenoGLES(11651): Build Date                       : 09/29/20
+I/AdrenoGLES(11651): OpenGL ES Shader Compiler Version: EV031.27.05.02
+I/AdrenoGLES(11651): Local Branch                     : 
+I/AdrenoGLES(11651): Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.UM.8.6.2.R1.10.00.00.537.053
+I/AdrenoGLES(11651): Remote Branch                    : NONE
+I/AdrenoGLES(11651): Reconstruct Branch               : NOTHING
+I/AdrenoGLES(11651): Build Config                     : S L 8.0.10 AArch64
+I/AdrenoGLES(11651): PFP: 0x005ff112, ME: 0x005ff066
+W/Gralloc3(11651): mapper 3.x is not supported
+W/Looper  (11651): Slow Looper main: doFrame is 6608ms late because of 4 msg, msg 1 took 866ms (seq=2 late=3ms h=android.app.ActivityThread$H w=110), msg 2 took 3588ms (seq=3 late=866ms h=android.app.ActivityThread$H w=159)
+E/flutter (11651): [ERROR:flutter/runtime/dart_vm_initializer.cc(40)] Unhandled Exception: PlatformException(error, java.lang.IllegalStateException: Trying to create a platform view of unregistered type: yandex_mapkit/yandex_map
+E/flutter (11651): 	at io.flutter.plugin.platform.PlatformViewsController.createPlatformView(PlatformViewsController.java:508)
+E/flutter (11651): 	at io.flutter.plugin.platform.PlatformViewsController$1.createForPlatformViewLayer(PlatformViewsController.java:167)
+E/flutter (11651): 	at io.flutter.embedding.engine.systemchannels.PlatformViewsChannel$1.create(PlatformViewsChannel.java:105)
+E/flutter (11651): 	at io.flutter.embedding.engine.systemchannels.PlatformViewsChannel$1.onMethodCall(PlatformViewsChannel.java:55)
+E/flutter (11651): 	at io.flutter.plugin.common.MethodChannel$IncomingMethodCallHandler.onMessage(MethodChannel.java:267)
+E/flutter (11651): 	at io.flutter.embedding.engine.dart.DartMessenger.invokeHandler(DartMessenger.java:292)
+E/flutter (11651): 	at io.flutter.embedding.engine.dart.DartMessenger.lambda$dispatchMessageToQueue$0$io-flutter-embedding-engine-dart-DartMessenger(DartMessenger.java:319)
+E/flutter (11651): 	at io.flutter.embedding.engine.dart.DartMessenger$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+E/flutter (11651): 	at android.os.Handler.handleCallback(Handler.java:883)
+E/flutter (11651): 	at android.os.Handler.dispatchMessage(Handler.java:100)
+E/flutter (11651): 	at android.os.Looper.loop(Looper.java:223)
+E/flutter (11651): 	at android.app.ActivityThread.main(ActivityThread.java:7562)
+E/flutter (11651): 	at java.lang.reflect.Method.invoke(Native Method)
+E/flutter (11651): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:539)
+E/flutter (11651): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:950)
+E/flutter (11651): , null, null)
+E/flutter (11651): #0      StandardMethodCodec.decodeEnvelope (package:flutter/src/services/message_codecs.dart:652:7)
+E/flutter (11651): #1      MethodChannel._invokeMethod (package:flutter/src/services/platform_channel.dart:370:18)
+E/flutter (11651): <asynchronous suspension>
+E/flutter (11651): #2      ExpensiveAndroidViewController._sendCreateMessage (package:flutter/src/services/platform_views.dart:1084:5)
+E/flutter (11651): <asynchronous suspension>
+E/flutter (11651): #3      AndroidViewController.create (package:flutter/src/services/platform_views.dart:809:5)
+E/flutter (11651): <asynchronous suspension>
+E/flutter (11651): 
+I/_mapkit_exampl(11651): ProcessProfilingInfo new_methods=1581 is saved saved_to_disk=1 resolve_classes_delay=8000
+D/ProfileInstaller(11651): Installing profile for com.example.flutter_yandex_mapkit_example
+Lost connection to device.
